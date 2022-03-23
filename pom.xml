@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.17.26.202:8081/repository/webappsGoReleases/</url>
+	      <url>http://18.223.114.230:8081/repository/boa-realeases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.17.26.202:8081/repository/webappsGoSnapshot/</url>
+	      <url>http://18.223.114.230:8081/repository/boa-snaphot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
