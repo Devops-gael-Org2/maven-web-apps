@@ -2,9 +2,9 @@
 //Groovy script 
 
 node{
-  def mavenHome = tool name: 'maven3.8.1'
+  def mavenHome = tool name: 'maven3.8.4'
   stage('CodeClone') {
-    git credentialsId: 'git-credentials', url: 'https://github.com/mylandmarktechs/web'
+    git 'https://github.com/Devops-gael-Org2/maven-web-apps'
   }
   stage('mavenBuild') {
     sh "${mavenHome}/bin/mvn clean package"
